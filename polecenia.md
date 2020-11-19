@@ -87,3 +87,14 @@ git log --format="full"
 git log --format="oneline" 
 git log --oneline
 git log --format="%h %s"
+
+# Git Diff
+git diff
+git diff HEAD
+git diff b64ee9
+git diff HEAD~3
+git diff HEAD~1..HEAD~2
+git diff HEAD~3 sciezka/do/pliku
+git diff HEAD~1..HEAD~2 sciezka/do/pliku
+
+git diff --cached
