@@ -24,3 +24,7 @@ ESC - Wyłacz wprowadzanie
 git add .
 git mv index.html strona/index.html
 git rm readme.txt
+
+# Checkout 
+git checkout <file>
+git checkout <rev> <file>
