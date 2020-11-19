@@ -1,2 +1,4 @@
+internals
+
 logs/*.log
 !logs/example.log
