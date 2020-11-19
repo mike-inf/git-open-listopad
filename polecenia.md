@@ -20,4 +20,7 @@ ESC - Wyłacz wprowadzanie
 :q! - Przerwij commit
 :wq - Zapisz komunikat i utwórz commit 
 
-
+# Add move remove
+git add .
+git mv index.html strona/index.html
+git rm readme.txt
