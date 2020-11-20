@@ -1,5 +1,4 @@
 internals
-build 
 
 logs/*.log
 !logs/example.log
