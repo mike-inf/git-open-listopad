@@ -130,31 +130,3 @@ If you are sure you want to delete it, run 'git branch -D wip-demo-x'.
 # Merge
 git merge inny_branch
 git merge inny_branch --no-ff
-
-
-## SSH Key
-ssh-keygen
-
-Generating public/private rsa key pair.
-Enter file in which to save the key (/c/Users/<USER>/.ssh/id_rsa):
-Enter passphrase (empty for no passphrase):
-Enter same passphrase again:
-Your identification has been saved in /c/Users/ev45i/.ssh/id_rsa
-Your public key has been saved in /c/Users/ev45i/.ssh/id_rsa.pub
-The key fingerprint is:
-SHA256:APz9YssGCmtYEw0Ld2Ih2wlTv4YqrHtF/twf5C4BehM ev45i@DESKTOP-10PBE5H
-The key's randomart image is:
-+---[RSA 3072]----+
-|+.oo.            |
-|.*=oo.           |
-|.+o*....         |
-|  o.o.E..        |
-|  .+o. oS..      |
-|..+.+ + +o.      |
-|o+ = = * +o      |
-|+ + . o *. .     |
-|o+     . oo      |
-+----[SHA256]-----+
-
-// GET PUBLIC KEY
-cat ~/.ssh/id_rsa.pub
