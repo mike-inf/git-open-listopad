@@ -130,3 +130,63 @@ If you are sure you want to delete it, run 'git branch -D wip-demo-x'.
 # Merge
 git merge inny_branch
 git merge inny_branch --no-ff
+
+# Remote
+git clone zrodlo lokalny_katalog
+git remote 
+git remote show origin
+git remote add nazwa_serwera lokalizacja_na_serwerze
+
+git fetch origin/master
+git merge FETCH_HEAD
+
+git pull origin master:master
+git pull origin zdalny_branch:moj_branch
+git pull 
+
+git remote add kopia C:/Projects/altkom/git-open-listopad-clone
+git push kopia master:master 
+git push kopia master
+
+// Set remote branch and track in local
+git push -u origin branch
+
+// Set local branch to track remote branch
+git checkout -b <branch>
+git branch -u <remote>/<branch>
+
+
+## SSH Key
+ssh-keygen
+
+Generating public/private rsa key pair.
+Enter file in which to save the key (/c/Users/<USER>/.ssh/id_rsa):
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /c/Users/ev45i/.ssh/id_rsa
+Your public key has been saved in /c/Users/ev45i/.ssh/id_rsa.pub
+The key fingerprint is:
+SHA256:APz9YssGCmtYEw0Ld2Ih2wlTv4YqrHtF/twf5C4BehM ev45i@DESKTOP-10PBE5H
+The key's randomart image is:
++---[RSA 3072]----+
+|+.oo.            |
+|.*=oo.           |
+|.+o*....         |
+|  o.o.E..        |
+|  .+o. oS..      |
+|..+.+ + +o.      |
+|o+ = = * +o      |
+|+ + . o *. .     |
+|o+     . oo      |
++----[SHA256]-----+
+
+// GET PUBLIC KEY
+cat ~/.ssh/id_rsa.pub
+
+# Praca zdalna
+git checkout -b <nazwa_brancha>
+// tworzym plik autorzy/<imie_litera>.html
+git add .
+git commit -m "O autorze - Mateusz K."
+git push -u origin <nazwa_brancha>
+
