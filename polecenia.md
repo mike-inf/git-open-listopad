@@ -98,3 +98,35 @@ git diff HEAD~3 sciezka/do/pliku
 git diff HEAD~1..HEAD~2 sciezka/do/pliku
 
 git diff --cached
+
+
+# Tag
+git tag
+git tag v1.1
+git tag v1.1 -a 
+git tag v1.1 -a -m "Opis"
+
+git tag -l
+git tag -l -n
+
+# Branch
+git branch
+git branch nowy_branch <commitRef>
+
+git checkout nowy_branch
+git switch nowy_branch
+
+git checkout -b nowy_branch
+git switch -c nowy_branch
+
+git branch -d do_usuniecia
+git branch -D do_usuniecia
+
+git branch -d wip-demo-x
+error: The branch 'wip-demo-x' is not fully merged.
+If you are sure you want to delete it, run 'git branch -D wip-demo-x'.
+
+
+# Merge
+git merge inny_branch
+git merge inny_branch --no-ff
