@@ -2,5 +2,3 @@ internals
 
 logs/*.log
 !logs/example.log
-
-lokalny_remote
